@@ -1,2 +1,36 @@
 // Navigation Styles here
 
+
+header{
+    max-width: 800px;
+    margin: 10px auto 20px;
+    @media @mobile{
+        max-width:500px;
+        margin: 8px 10px 17px;
+        }
+}
+.title-logo{
+    
+.custom-flex(space-between, center);
+    @media @mobile {
+        flex-direction: column;
+    }
+    
+    nav a{
+    margin-right:20px;
+    text-decoration: none;
+    font-size:1.5rem;
+    color:black;
+    }
+    @media @mobile{
+        h1{
+            margin-bottom: 15px;
+        }
+        nav a{
+                margin:35px;
+        }
+    }
+}
+.separator{
+    border-bottom: @custom-border;
+}
