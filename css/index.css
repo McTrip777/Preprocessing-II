@@ -171,6 +171,7 @@ img {
 header {
   max-width: 800px;
   margin: 10px auto 20px;
+  padding: 0 5%;
 }
 @media (max-width:500px) {
   header {
@@ -199,7 +200,7 @@ header {
     margin-bottom: 15px;
   }
   .title-logo nav a {
-    margin: 35px;
+    margin: 18px;
   }
 }
 .separator {
@@ -215,6 +216,9 @@ header {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home {
+  padding: 0 5%;
 }
 @media (max-width:500px) {
   .home {
